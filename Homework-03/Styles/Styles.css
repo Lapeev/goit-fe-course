@@ -1,0 +1,62 @@
+body {
+    font-family: 'Playfair Display', serif;
+    width: 970px;
+    margin: 50px 150px;
+}
+ul {
+list-style: none;
+margin: 0 auto;
+padding-left: 0;
+}
+a {
+    text-decoration: none;
+}
+.masthead-nav {
+    text-align: center;
+}
+.nav-list__item{
+    display: inline-block;
+    margin-right: -4px;
+}
+.nav-list__item a {
+    padding: 1em 3em;
+    text-transform: uppercase;
+    color: #616161;
+}
+.nav-list__item a:hover {
+    color: #03a9f4;
+}
+.section {
+    padding-top: 100px;
+}
+.section-article {
+    width: 420px;
+    display: inline-block;
+    margin: 0 30px 70px 30px;
+}
+.section-article h2 {
+    font-size: 30px;
+    color: #616161;
+    text-align: justify;
+    font-weight: normal;
+}
+.section-article p {
+    font-size: 14px;
+    text-align: justify;
+}
+.button {
+    text-align: center;
+}
+.button a{
+    text-decoration: none;
+    display: inline-block;   
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+    color: #616161; 
+    border: 1px solid #616161; 
+    line-height: 3;
+}
+.button a:hover{
+    color: #03a9f4;
+}
