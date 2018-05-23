@@ -1,0 +1,183 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    width: 1170px;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header {
+    width: 1110px;
+    margin: 40px 30px 95px 30px;
+}
+.logo {
+    text-decoration: none;
+    font-size: 30px;
+    color: #555252;
+    text-transform: uppercase;
+    float: left;
+}
+.logo p {
+    margin: 0;
+}
+.logo p::first-letter {
+    color: #1abc9c;
+    font-weight: bolder;
+}
+.headerleft {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+.links {
+    display: inline-block;
+}
+.link {
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bolder;
+}
+.links:not(:last-child) {
+    padding-right: 30px;
+}
+.link:hover {
+    color: #1abc9c
+}
+.head1 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    color: #515151;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 95px;
+}
+.head1::after {
+    display: block;
+    content: "";
+    width: 160px;
+    border-bottom: 7px solid #1abc9c;
+    margin: 0 auto;
+    padding-top: 33px;
+}
+.cards {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.el1 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background: #323232;   
+    width: 255px;
+    height: 322px; 
+}
+.name {
+    display: inline-block;
+    padding-top: 8px;
+}
+.prise {
+    float: right; 
+    background: rgb(255,255,255,.5);
+    height: 34px;
+    width: 46px;
+    padding-top: 8px;
+    padding-left: 8px;
+   
+    
+  
+}
+.cardtext {
+ color: #ffffff;
+ font-size: 18px;
+ text-transform: uppercase;
+ padding-left: 14px;
+ font-weight: bolder;
+ height: 42px;
+}
+.el1:hover {
+    background: #1abc9c;
+}
+.card {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 255px;
+    height: 322px;
+    text-decoration: none;
+}
+.card img {
+    display: block;
+}
+.el1 {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.newsul {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.newsli {
+    display: inline-block;
+    height: 510px;
+    width: 350px;
+    margin-left: 30px;
+}
+.b1 {
+    background-image: url(../img/ipad-632394_960_720.jpg);
+    background-repeat: no-repeat;
+}
+.b2 {
+    background-image: url(../img/slide1.jpg);
+    background-repeat: no-repeat;
+}
+.b3 {
+    background-image: url(../img/product-img-5.jpg);
+    background-repeat: no-repeat;
+}
+.head2 {
+    margin: 0;
+    padding: 0;
+    padding-top: 270px;
+    font-size: 18px;
+    color: #555252;
+}
+.head2::after {
+    display: block;
+    content: "";
+    width: 136px;
+    border-bottom: 3px solid #1abc9c;
+    padding-top: 15px;
+}
+.text {
+    margin: 0;
+    padding: 0;
+    padding-top: 29px;    
+    font-size: 14px;
+    color: #555252;
+    line-height: 2em;
+    margin-bottom: 19px;
+}
+.load {
+    display: block;
+    width: 160px;
+    height: 51px;
+    background: #1abc9c;
+    border-radius: 4px;
+    margin-bottom: 80px;
+    text-decoration: none;
+}
+.button {    
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 3em;
+}
