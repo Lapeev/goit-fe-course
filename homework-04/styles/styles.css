@@ -65,6 +65,9 @@ body {
     margin: 0 auto;
     padding-top: 33px;
 }
+.products {
+    margin-bottom: 95px;
+}
 .cards {
     float: left;
     margin: 0;
