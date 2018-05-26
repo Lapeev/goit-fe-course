@@ -83,14 +83,14 @@ body {
 }
 .name {
     display: inline-block;
-    padding-top: 8px;
+    padding-top: 10px;
 }
 .prise {
     float: right; 
-    background: rgb(255,255,255,.5);
-    height: 34px;
+    background: rgb(255,255,255,.4);
+    height: 32px;
     width: 46px;
-    padding-top: 8px;
+    padding-top: 10px;
     padding-left: 8px;
    
     
