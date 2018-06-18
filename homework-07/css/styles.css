@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(./fonts/Montserrat-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Droid Serif Italic';
+    font-style: italic;
+    font-weight: 400;
+    src: url(./fonts/DroidSerif-Italic.woff) format('woff');
+}
+@font-face {
+    font-family: 'Montserrat Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url(./fonts/Montserrat-ExtraBold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Roboto Slab Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: url(./fonts/RobotoSlab-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Wisdom Script';
+    src: url(./fonts/WisdomScriptAJ.woff) format('woff');
+}
+body {
+    font-family: 'Montserrat Bold', 'Montserrat', 'Roboto Slab Regular', 'Droid Serif Italic', 'Wisdom Script', sans-serif;
+    margin: 0 auto;
+}
+.white {
+    padding: 55px 0 120px 0;
+    width: 940px;
+    margin: 0 auto;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.logo {
+    color: #fed136;
+    font-size: 26px;
+    font-family: 'Wisdom Script';
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.nav {
+    display: inline-block;
+}
+.nav_item {
+    display: inline-block;
+    margin-left: 40px;
+}
+.nav_item a {
+    text-decoration: none;
+    color: #222222;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: bolder;
+}
+.nav_item a:hover {
+    color: #fed136;
+}
+.h_services {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222222;    
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.p_services {
+    font-size: 16px;
+    color: #777777;
+    font-family: 'Droid Serif Italic';
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+}
+.p_services::first-letter {
+    text-transform: uppercase;
+}
+.d_services {
+    display: flex;
+    justify-content: space-between;
+}
+.service {
+    width: 290px;
+}
+.img {
+    display: block;
+    border: 3px solid #fed136;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+.service img {
+    display: block;
+    margin: 0 auto;
+}
+.h_service {
+    text-align: center;
+    font-size: 18px;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.p_service {
+    font-size: 14px;
+    font-family: 'Roboto Slab Regular';
+    text-align: center;
+    color: #777777;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+}
+.black {
+    padding: 55px 0 120px 0;
+    background: #222222;
+    background-image: url(../img/Map-Image1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.h_contact {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.p_contact {
+    font-size: 16px;
+    color: #777777;
+    font-family: 'Droid Serif Italic';
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 80px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+    width: 940px;
+    margin: 0 auto;
+    justify-content: space-between;
+    position: relative;
+    align-items: flex-start;
+    margin-bottom: 115px;
+}
+input {
+    width: 455px;
+    height: 52px;
+    border-radius: 3px;
+    border: 0 solid;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 22px;
+    color: #bbbbbb;
+    box-sizing: border-box;
+
+}
+textarea {
+    width: 455px;
+    height: 210px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 3px;
+    border: 0 solid;
+    padding-left: 22px;
+    padding-top: 22px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #bbbbbb;
+}
+input:valid {
+    outline: 2px solid green;
+    -moz-outline-radius: 3px;
+}
+input:invalid {
+    outline: 2px solid red;
+    -moz-outline-radius: 3px;
+}
+textarea:valid {
+    outline: 2px solid green;
+    -moz-outline-radius: 3px;
+}
+textarea:invalid {
+    outline: 2px solid red;
+    -moz-outline-radius: 3px;
+}
+.button {
+    width: 240px;
+    height: 65px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: -95px;
+    padding: 0;
+    color: #fff;
+    background: #fed136;
+    font-size: 18px;
+    outline: none;
+}
+.button:valid {
+    outline: none;
+}
+
