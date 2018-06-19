@@ -202,6 +202,9 @@ textarea {
     text-transform: uppercase;
     color: #bbbbbb;
 }
+input {
+    outline:none;
+}
 input:required:valid {
     outline: 2px solid green;
     -moz-outline-radius: 3px;
