@@ -38,6 +38,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 120px;
+    align-items: flex-end;
 }
 .logo {
     color: #fed136;
@@ -45,12 +46,18 @@ header {
     font-family: 'Wisdom Script';
     text-transform: capitalize;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 .nav {
     display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 .nav_item {
     display: inline-block;
+    margin: 0;
+    padding: 0;
     margin-left: 40px;
 }
 .nav_item a {
@@ -92,19 +99,27 @@ header {
 .service {
     width: 290px;
 }
-.img {
+.h_service::before {
     display: block;
+    content: "";
+    height: 40px;
+    width: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
     border: 3px solid #fed136;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
     padding: 12px;
     margin: 0 auto;
     margin-bottom: 25px;
 }
-.service img {
-    display: block;
-    margin: 0 auto;
+.s1::before {
+    background-image: url(../img/icons/icon-basket.png);
+}
+.s2::before {
+    background-image: url(../img/icons/icon-laptop.png);
+}
+.s3::before {
+    background-image: url(../img/icons/icon-locked.png);
 }
 .h_service {
     text-align: center;
@@ -187,19 +202,19 @@ textarea {
     text-transform: uppercase;
     color: #bbbbbb;
 }
-input:valid {
+input:required:valid {
     outline: 2px solid green;
     -moz-outline-radius: 3px;
 }
-input:invalid {
+input:required:invalid {
     outline: 2px solid red;
     -moz-outline-radius: 3px;
 }
-textarea:valid {
+textarea:required:valid {
     outline: 2px solid green;
     -moz-outline-radius: 3px;
 }
-textarea:invalid {
+textarea:required:invalid {
     outline: 2px solid red;
     -moz-outline-radius: 3px;
 }
