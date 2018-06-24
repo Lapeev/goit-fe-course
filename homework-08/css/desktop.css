@@ -1,0 +1,14 @@
+@media (min-width: 1440px) {
+    body {
+        width: 100vw;
+    }
+    .background {
+        background-repeat: round;
+    }
+    header {
+        width: 65%;
+    }
+    .karti {
+        width: 65%;
+    }
+}

@@ -1,0 +1,199 @@
+@media (min-width: 320px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Montserrat', 'Roboto';
+        width: 320px;
+        margin: 0 auto;
+    }
+    .background {
+        background-image: url(../img/background/background.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        margin-bottom: 70px;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 175px;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+    .logo {
+        order: 1;
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        text-transform: uppercase;
+        align-self: center;
+        font-weight: 700;
+        letter-spacing: 3px;        
+    }
+    .menu {
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .menu_item {
+        display: inline-block;
+    }
+    .menu_link {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        padding: 0.5rem;
+        border-radius: 20px;
+        border: 2px solid rgba(0, 0, 0, 0);
+        margin: 0;
+        /*padding-left: 1rem;*/
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .menu_link::first-letter {
+        text-transform: uppercase;
+    }
+    .menu_link:hover {
+        border: 2px solid #fff;
+    }
+    .share {
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .partner {
+        font-size: 18px;
+        font-family: 'Roboto';
+        font-weight: 300;
+        color: #fff;
+        text-align: center;
+        width: 220px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .partner::first-letter {
+        text-transform: uppercase;
+    }
+    button {
+        margin: 0 auto;
+        display: block;
+        height: 40px;
+        border-radius: 20px;
+        width: 280px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .find {
+        color: #fff;
+        background: rgba(0, 0, 0, 0);
+        border: 2px solid #fff;        
+    }
+    .find:hover {
+        background: #ff4e50;
+        border: 2px solid #ff4e50;
+    }
+    button::first-letter {
+        text-transform: uppercase;
+    }
+    .meet {
+        margin: 0 auto;
+        padding: 0;
+        color: #333333;
+        font-weight: 700;
+        text-align: center;
+        font-size: 22px;
+        width: 260px;
+        margin-bottom: 19px;
+    }
+    .meet::first-letter {
+        text-transform: uppercase;
+    }
+    .karti {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .karta {
+        height: 240px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .morda img {
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .morda {
+        text-decoration: none;
+    }
+    .morda::after {
+        display: inline-block;
+        height: 32px;
+        width: 32px;
+        content: "";
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 50%;
+        border: 4px solid #fff;
+        margin-left: -36px;
+    }
+    .m1::after {
+        background-color: #ff4e50;
+        background-image: url(../img/icon/Shape128.png);
+    }
+    .m2::after {
+        background-color: #ffa507;
+        background-image: url(../img/icon/Shape153.png);
+    }
+    .m3::after {
+        background-color: #1cd7ad;
+        background-image: url(../img/icon/Shape155.png);
+    }
+    .m4::after {
+        background-color: #4e73db;
+        background-image: url(../img/icon/Shape170.png);
+    }
+    .name {
+        font-size: 14px;
+        color: #333333;
+        text-transform: capitalize;
+    }
+    .blabla {
+        color: #666666;
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .zaraza4 {
+        order: 3;
+    }
+    .zaraza3 {
+        order: 1;
+        height: 260px;
+    }
+    .zaraza2 {
+        order: 2;
+    }
+    .vitrina {
+        font-size: 14px;
+        color: #ff4e50;
+        border: 2px solid #ff4e50;
+        background: #fff;
+    }
+    .vitrina:hover {
+        background: #ff4e50;
+        color: #fff;
+    }
+    .white {
+        margin-bottom: 55px;
+    }
+}

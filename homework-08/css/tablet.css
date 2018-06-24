@@ -1,0 +1,54 @@
+@media (min-width: 768px) {
+    body {
+        width: 768px;        
+    }
+    .background {
+        height: 700px;
+    }
+    header {
+        flex-direction: row;
+        height: auto;
+        align-items: flex-start;
+        width: 80%;
+        padding-top: 50px;
+        margin: 0 auto;
+        margin-bottom: 160px;
+    }
+    .logo {
+        order: 0;        
+}
+    .menu {
+        margin: 0;
+        padding: 0;       
+    }
+    .share {
+        font-size: 52px;
+    }
+    .partner {
+        width: auto;
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    button {
+        width: 227px;
+    }
+    .meet {
+        width: auto;
+    }
+    .karti {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .karta {
+        order: 0;
+    }
+    .vitrina {
+        width: 194px;
+    }
+    .white {
+        margin-bottom: 40px;
+    }
+}
