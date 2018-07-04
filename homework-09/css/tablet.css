@@ -1,0 +1,47 @@
+@media (min-width: 768px) {
+    body {
+        width: 768px;
+    }
+    .picture {
+        height: 700px;
+    }
+    header {
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+    .r1 {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 680px;
+        margin: 0 auto;
+    }
+    .share {
+        font-size: 52px;
+    }
+    .partner {
+        width: auto;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    button {
+        width: 227px;
+    }
+    .r3 {
+        width: 490px;
+        margin: 0 auto;
+    }
+    .meet {
+        width: auto;
+        margin-bottom: 30px;
+    }
+    .karta {
+        order: 0;
+    }
+    .vitrina {
+        width: 194px;
+    }
+    .white {
+        margin-bottom: 40px;
+    }
+}

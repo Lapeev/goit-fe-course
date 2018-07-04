@@ -1,0 +1,11 @@
+@media (min-width: 1200px) {
+    body {
+        width: 1440px;
+    }
+    .r1 {
+        width: 940px;
+    }
+    .r3 {
+        width: 940px;
+    }
+}
