@@ -6,7 +6,10 @@
     }
     .picture {
         height: 540px;
-        background: url(../img/background/background.jpg) center;
+        background: url(../img/background/background.jpg);
+        background-position-x: 51%;
+        background-size: 347%;
+        background-repeat: no-repeat;
         margin-bottom: 70px;
     }
     .r1 {
@@ -18,8 +21,11 @@
         list-style: none;
         margin: 0;
         padding: 0;
-        margin-top: 10px;
-        margin-bottom: 100px;
+        margin-top: 17px;
+        margin-bottom: 110px;
+    }
+    .lisign:first-child {
+        transform: translate(-12px, 0);
     }
     .menu_link {
         display: inline-block;
@@ -49,10 +55,10 @@
         font-size: 20px;
         text-transform: uppercase;
         font-weight: 700;
-        letter-spacing: 3px; 
+        letter-spacing: 1px; 
     }
     header {
-        margin-bottom: 40px;
+        margin-bottom: 24px;
     }
     .share {
         font-size: 30px;
@@ -62,7 +68,7 @@
         margin: 0;
         padding: 0;
         text-align: center;
-        margin-bottom: 25px;
+        margin-bottom: 7px;
     }
     .partner {
         font-size: 18px;
@@ -72,7 +78,8 @@
         text-align: center;
         width: 220px;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-bottom: 13px;
+        line-height: 24px;
     }
     .partner::first-letter {
         text-transform: uppercase;
@@ -107,20 +114,21 @@
         text-align: center;
         font-size: 22px;
         width: 260px;
-        margin-bottom: 19px;
+        margin-bottom: 9px;
+        transform: translate(-4px, -5px);
     }
     .meet::first-letter {
         text-transform: uppercase;
     }
     .karta {
-        height: 240px;
+        height: 230px;
         margin: 0 auto;
         text-align: center;
     }
     .morda img {
         display: inline-block;
         margin: 0 auto;
-        margin-bottom: 20px;
+        margin-bottom: 19px;
     }
     .morda {
         text-decoration: none;
@@ -129,15 +137,15 @@
     .morda::after {
         display: inline-block;
         position: absolute;
-        height: 32px;
-        width: 32px;
+        height: 40px;
+        width: 40px;
         content: "";
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 50%;
         border: 4px solid #fff;
-        margin-left: -36px;
-        bottom: -210%;
+        margin-left: -40px;
+        bottom: -216%;
     }
     .m1::after {
         background-color: #ff4e50;
@@ -159,6 +167,7 @@
         font-size: 14px;
         color: #333333;
         text-transform: capitalize;
+        margin-bottom: 0.8rem;
     }
     .blabla {
         color: #666666;
@@ -167,17 +176,24 @@
         font-size: 14px;
         width: 220px;
         margin: 0 auto;
+        line-height: 18px;
     }
     .zaraza4 {
         order: 3;
+        transform: translate(-3px, 0);
+        height: 228px;
     }
     .zaraza3 {
         order: 1;
-        height: 260px;
+        height: 241px;
         margin-bottom: 20px;
+    }
+    .zaraza3>.blabla {
+        line-height: 17px;
     }
     .zaraza2 {
         order: 2;
+        transform: translate(-2px, 0);
     }
     .bvitrina {
         order: 4;
@@ -187,6 +203,7 @@
         color: #ff4e50;
         border: 2px solid #ff4e50;
         background: #fff;
+        transform: translate(-2px, 0);
     }
     .vitrina:hover {
         background: #ff4e50;

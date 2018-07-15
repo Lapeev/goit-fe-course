@@ -2,10 +2,22 @@
     body {
         width: 1440px;
     }
+    .picture {
+        background-size: 100%;
+    }
     .r1 {
         width: 940px;
     }
+    .collogo {
+        transform: translate(0, 4px);
+    }
+    .lisign:last-child {
+        margin-left: 0;
+    }
     .r3 {
-        width: 940px;
+        width: 964px;
+    }
+    .meet {
+        margin-bottom: 26px;
     }
 }

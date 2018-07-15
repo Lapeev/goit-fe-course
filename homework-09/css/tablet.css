@@ -4,9 +4,12 @@
     }
     .picture {
         height: 700px;
+        background-size: 187%;
+        background-position: center;
+        margin-bottom: 73px;
     }
     header {
-        padding-top: 30px;
+        padding-top: 18px;
         margin-bottom: 30px;
     }
     .r1 {
@@ -16,19 +19,30 @@
         width: 680px;
         margin: 0 auto;
     }
+    .collogo {
+        text-align: left;
+        transform: translate(4px, 4px);
+    }
+    .lisign:last-child {
+        margin-left: 8px;
+    }
+    .r2 {
+        margin-right: -11px;
+    }
     .share {
         font-size: 52px;
     }
     .partner {
         width: auto;
         font-size: 24px;
-        margin-bottom: 30px;
+        margin-bottom: 54px;
+        transform: translate(2px, 18px);
     }
     button {
         width: 227px;
     }
     .r3 {
-        width: 490px;
+        width: 518px;
         margin: 0 auto;
     }
     .meet {
@@ -37,9 +51,11 @@
     }
     .karta {
         order: 0;
+        height: 256px;
     }
     .vitrina {
         width: 194px;
+        transform: translate(-1px, -4px);
     }
     .white {
         margin-bottom: 40px;
