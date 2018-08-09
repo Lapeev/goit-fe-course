@@ -1,0 +1,78 @@
+.wrapper {
+	height: 1000px;
+}
+.wrapper_background {
+	background: url(../img/background-min.jpg) no-repeat center;
+	background-size: cover;
+}
+.wrapper_outer {
+	margin-bottom: 33px;
+}
+@media (-webkit-min-device-pixel-ratio: 2) {
+	.wrapper-background {
+		background: url(../img/background@2x-min.jpg);
+	}
+}
+.size {
+	width: 1200px;
+	margin: 0 auto;
+}
+.header {
+	height: 52px;
+}
+.header_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.header_outer {
+	margin-bottom: 151px;
+}
+.logo {
+	color: map-get($color, white);
+	font-size: 30px;
+}
+#svg {
+	display: none;
+}
+.nav__item {
+	color: map-get($color, white);
+	font-size: 14px;
+	transition-property: all;
+	transition-duration: 200ms;
+	&_hover:hover {
+		color: map-get($color, yellow);
+    	border-bottom: 3px solid map-get($color, yellow);
+		padding-bottom: 10px;
+	}		
+}
+.header__nav_outer {
+	transform: translate(0px, -3px);
+}
+.nav__item_outer {
+	margin-right: 49px;
+}
+.nav__button_outer {
+	margin-right: 40px;
+}
+.nav__svg {
+	fill: #fff;
+	width: 18px;
+	height: 18px;
+	transition-property: all;
+	transition-duration: 200ms;
+}
+.nav__button {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+	width: 18px;
+	height: 18px;
+	&:hover .nav__svg_hover {
+		fill: map-get($color, yellow);
+	}
+}
+
+
+

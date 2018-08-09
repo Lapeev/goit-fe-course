@@ -1,0 +1,42 @@
+.footer {
+	height: 61px;
+}
+.footer_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.address__mogo {
+	font-size: 14px;
+	color: map-get($color, grey-darkest);
+	font-style: normal;
+}
+.address__link {
+	display: inline-block;
+	color: map-get($color, pink);
+	font-size: 14px;
+}
+.form__text {
+	width: 229px;
+	height: 40px;
+	border: 1px solid map-get($color, grey-lightest);
+	font-size: 15px;
+	color: map-get($color, grey-lighter);
+}
+.form__text_outer {
+	transform: translate(4px, 1px);
+}
+.form__text_inner {
+	padding-left: 14px;
+}
+.form__submit {
+	width: 150px;
+	height: 40px;
+	background: map-get($color, turquoise);
+	color: map-get($color, white);
+	font-size: 14px;
+	line-height: 40px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+}

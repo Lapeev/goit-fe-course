@@ -1,0 +1,39 @@
+$fonts: 'Montserrat-Regular', 'Montserrat-Bold', 'Roboto-Regular', 'Roboto-LItalic', 'Kaushan', sans-serif;
+$montserrat-bold: 'Montserrat-Bold';
+$montserrat-regular: 'Montserrat-Regular';
+$roboto-regular: 'Roboto-Regular';
+$roboto-litalic: 'Roboto-LItalic';
+$kaushan: 'Kaushan';
+$color: (
+    white: #ffffff,
+    black: #000000,
+    yellow:  #fce38a,
+    pink: #f38181,
+    pink-lighter: #f9bd87,
+    turquoise: #95e1d3,
+    grey: #999999,
+    grey-darkest: #333333,
+    grey-lightest: #e7e7e7,
+    grey-lighter: #cccccc
+);
+%text_montserat-bold {
+    font-family: $montserrat-bold;
+}
+%text_montserat-regular {
+    font-family: $montserrat-regular;
+}
+%text_kaushan {
+    font-family: $kaushan;
+}
+%text_roboto-regular {
+    font-family: $roboto-regular;
+}
+%text_roboto-l-italic {
+    font-family: $roboto-litalic;
+}
+%text_uppercase {
+    text-transform: uppercase;
+}
+%text_capitalize {
+    text-transform: capitalize;
+}

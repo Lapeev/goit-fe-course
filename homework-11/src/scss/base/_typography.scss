@@ -1,0 +1,24 @@
+.text_montserat-bold {
+	@extend %text_montserat-bold;
+}
+.text_montserat-regular {
+	@extend %text_montserat-regular;
+}
+.text_kaushan {
+	@extend %text_kaushan;
+}
+.text_roboto-regular {
+	@extend %text_roboto-regular;
+}
+.text_roboto-l-italic {
+	@extend %text_roboto-l-italic;
+}
+.text_uppercase {
+	@extend %text_uppercase;
+}
+.text_capitalize {
+	@extend %text_capitalize;
+}
+.text_first-letter::first-letter {
+	@extend %text_uppercase;
+}

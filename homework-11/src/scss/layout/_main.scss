@@ -1,0 +1,196 @@
+.main {
+	border-bottom: 1px solid map-get($color, grey-lightest);
+}
+.invitation__head-template {
+	color: map-get($color, white);
+	text-align: center;
+	font-size: 72px;
+}
+.invitation__head-template_outer {
+	margin-bottom: 26px;
+}
+.invitation__head-main {
+	color: map-get($color, white);
+	text-align: center;
+	font-size: 150px;
+	line-height: 140px;
+}
+.invitation__head-main_outer {
+	margin-bottom: 108px;
+}
+.invitation__button {
+	background: transparent;
+	font-size: 14px;
+	color: map-get($color, white);
+	line-height: 34px;
+	border: 3px solid map-get($color, white);
+	width: 160px;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+}
+.invitation__button_outer {
+	margin: 0 auto;
+}
+.services__head-work-with {
+	text-align: center;
+	font-size: 24px;
+}
+.services__head-work-with_outer {
+	margin-bottom: 9px;
+}
+.services__head-services {
+	text-align: center;
+	font-size: 30px;
+}
+.services__head-services_outer {
+	margin-bottom: 42px;
+}
+.h2__line-after::after {
+	content: '';
+    display: block;
+    margin: 0 auto;
+    height: 34px;
+    width: 60px;
+	border-bottom: 3px solid map-get($color, pink);
+}
+.list-services_outer {
+	margin-bottom: -31px;
+}
+.list-services {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+.list-services__item {
+	width: calc(1150px/3);
+	height: 170px;
+	display: flex;
+	justify-content: space-between;
+}
+.list-services__svg {
+	width: 32px;
+	height: 32px;
+	fill: map-get($color, turquoise);
+}
+.list-services__svg_inner {
+	transform: translate(29px, 4px);
+}
+.list-services__text {
+	width: 296px;
+}
+.list-services__name {
+	font-size: 14px;
+}
+.list-services__lorem {
+	font-size: 15px;
+	color: map-get($color, grey);
+	line-height: 24px;
+}
+.list-services__svg_border {
+	border: 3px solid map-get($color, turquoise);
+	padding: 1px;
+}
+.list-services__name_outer {
+	margin-bottom: 10px;
+}
+.team__head-team_outer {
+	margin-bottom: 40px;
+}
+.team__lorem {
+	text-align: center;
+	font-size: 15px;
+	color: map-get($color, grey);
+	line-height: 24px;
+}
+.team__lorem_outer {
+	margin-bottom: 90px;
+}
+.cards {
+	display: flex;
+	justify-content: space-between;
+}
+.cards__full-one {
+	width: 380px;
+	height: 542px;
+}
+.cards__background {
+	background: map-get($color, turquoise);
+	height: 470px;
+	width: inherit;
+}
+.cards__train {
+	position: relative;
+	height: inherit;
+	width: inherit;
+	transition-duration: 200ms;
+    transition-property: transform;
+    &_hover:hover .cards__gradient {
+        opacity: 1;
+    }
+    &_hover:hover {
+        transform: translate(-10px, -10px);
+    }
+}
+.cards__gradient {
+	background: linear-gradient(rgba(243, 129, 129, .9), rgba(252, 227, 138, .9));
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: inherit;
+	height: inherit;
+	transition-duration: 200ms;
+	transition-property: opacity;
+	opacity: 0;
+}
+.cards__web {
+	width: 380px;
+	height: 470px;
+}
+.cards__web_inner {
+	display: flex;
+    justify-content: center;
+	align-items: center;
+}
+.cards__links {
+	width: 56px;
+	height: 56px;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	background: map-get($color, yellow);
+	transition-duration: 200ms;
+    transition-property: background;
+    &_hover:hover {
+        background: map-get($color, pink);
+    }
+    &_hover:hover .cards__svg_hover {
+        fill: map-get($color, white);
+    }
+}
+.cards__svg {
+	height: 26px;
+	fill: map-get($color, pink);
+	transition-duration: 200ms;
+	transition-property: fill;
+} 
+.cards__links:not(:last-child) {
+	border-right: 1px solid map-get($color, pink-lighter);
+}
+.cards__background_outer {
+	margin-bottom: 27px;
+}
+.cards__name {
+	text-align: center;
+	color: map-get($color, grey-darkest);
+	font-size: 14px;
+}
+.cards__position {
+	text-align: center;
+	color: map-get($color, grey);
+	font-size: 15px;
+	line-height: 33px;
+}
+.cards_outer {
+	margin-bottom: 81px;
+}
